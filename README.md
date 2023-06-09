@@ -1,3 +1,3 @@
-# Wordle
+# Wordle Solver 
 
-Enjoy this infinite game of wordle until you get a word correct! :p
+You should never ever get a wordle wrong again! :p
