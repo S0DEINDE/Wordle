@@ -13,7 +13,7 @@ public class Solver {
     }
 
     public static String checkFile() {
-        System.out.println("WHat is the name of the file?");
+        System.out.println("What is the name of the file?");
         Scanner valid = new Scanner(System.in);
         String fileName = valid.nextLine();
 
@@ -37,7 +37,8 @@ public class Solver {
             System.out.println("There was an error while this file was read. " + e.getMessage());
         }
 
-        System.out.println("This is your starter code for o_List!" + o_List);
+        System.out.println("This is your starter code for o_List!");
+        System.out.println(o_List);
         return o_List;
     }
 
