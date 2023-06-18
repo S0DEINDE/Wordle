@@ -5,11 +5,18 @@ import java.util.stream.Collectors;
 @SuppressWarnings("ALL")
 public class Solver {
     public static void main(String[] args) {
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~WORDLE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~SOLVER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
         System.out.println("This program will help you navigate through the game Wordle");
         System.out.println("For each task (CL)for Chosen Letter,(S)for Specific Letter,(V)for Vowel or (C) for Consonant?");
         List<String> word_List = readList(checkFile());
         List<String> out_List = menu(word_List);
         outpuToFile(out_List);
+
+        System.out.println("~~~~~~~~~~~~~~~~~~THANKS FOR USING MY PROGRAM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
 
     public static String checkFile() {
